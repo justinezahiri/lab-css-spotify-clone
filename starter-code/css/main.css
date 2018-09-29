@@ -6,3 +6,25 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    font-family: Circular, Helvetica;
+}
+
+nav-bar {
+    position: fixed;
+    height: 50px;
+}
+
+.nav-logo {
+    aspect-ratio: 3.33:1;
+}
+
+.nav-bar li {
+    background-color: #FFF;
+    text-color: black;
+    list-style: none;
+    display: inline-block;
+    float: right;
+    padding: 10px;
+}
+
