@@ -6,20 +6,13 @@ Green: #00B172
 White: #FFF
 
 */
+@import url("https://fonts.googleapis.com/css?family=Cabin");
+
 body {
-    font-family: Circular, Helvetica;
+    font-family: "Cabin", sans-serif;
 }
 
-nav-bar {
-    position: fixed;
-    height: 50px;
-}
-
-.nav-logo {
-    aspect-ratio: 3.33:1;
-}
-
-.nav-bar li {
+nav li {
     background-color: #FFF;
     text-color: black;
     list-style: none;
@@ -27,4 +20,18 @@ nav-bar {
     float: right;
     padding: 10px;
 }
+
+#landing-header {
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    clear: both;
+    padding-top: 350px;
+    padding-bottom: 350px;
+    }
+
+h1 {
+    font-size: 100px;
+    color: #FFF;
+    text-align: center;
+    }
 
